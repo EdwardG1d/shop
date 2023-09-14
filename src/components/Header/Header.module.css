@@ -1,0 +1,15 @@
+.header{
+  background-color: gold;
+  grid-area: h;
+}
+.header__img{
+  text-align: center;
+  width: 70px;
+  opacity: 0.7;
+}
+
+.header__item{
+  position: relative;
+  margin-right: 5px;
+  padding-right: 40px;
+}
