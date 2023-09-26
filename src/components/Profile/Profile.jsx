@@ -7,7 +7,6 @@ const Profile = () => {
   return (
     <div className={p.content}>
       <ProfileInfo />
-
       <MyPosts />
     </div>
   );

@@ -1,8 +1,9 @@
 import React from "react"
+import n from "../News/News.module.css"
 
-const News = () =>{
+const News = (props) =>{
   return(
-    <div>Bubs</div>
+    <div className={n.string}>String</div>
   )
 }
 export default News;

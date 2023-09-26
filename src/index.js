@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
 
 let dialogs = [
   {
     id: "1",
     name: "Dima",
-  },  
+  },
   {
     id: "2",
     name: "Ivan",
@@ -50,14 +50,9 @@ let posts = [
   },
 ];
 
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App dialogs ={dialogs} messages ={messages} posts = {posts}/>
-    
+    <App dialogs={dialogs} messages={messages} posts={posts} />
   </React.StrictMode>
 );
-
-
